@@ -31,6 +31,10 @@ We provide the pretrained model and training/testing code for the edge detection
 ### Installing 
  0. Install prerequisites for Caffe(http://caffe.berkeleyvision.org/installation.html#prequequisites)
  0. Modified-caffe for HED: https://github.com/s9xie/hed.git
+ 
+ - edit `makefile.config`, uncomment USE_PKG_CONFIG := 1 if opencv3 (check version)[https://www.pyimagesearch.com/2015/08/10/checking-your-opencv-version-using-python/]
+ 
+ - change compiler for mex (reference)[http://www.cs.jhu.edu/~cxliu/2016/compiling-matcaffe-on-ubuntu-1604.html]
 
 ### Training HED
 To reproduce our results on BSDS500 dataset:
